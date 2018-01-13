@@ -1,5 +1,12 @@
 # Recipes Example App
 
+* Serialize: JSON => string.
+* Hydrating / deserializing: string => JSON.
+
+String can be easily sent between app server and browser.
+
+https://github.com/isomorphic-dev-js/chapter2-a-sample-isomorphic-app
+
 ## Folder structure
 
 * `/data`: JSON fixtures for API.
