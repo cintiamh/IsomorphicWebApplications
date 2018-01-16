@@ -1,0 +1,38 @@
+{
+  "name": "westies",
+  "version": "1.0.0",
+  "description": "## React",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env development",
+    "build": "webpack --env production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "git-revision-webpack-plugin": "^2.5.1",
+    "glob": "^7.1.2",
+    "html-webpack-plugin": "^2.30.1",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "purify-css": "^1.2.5",
+    "purifycss": "^1.2.6",
+    "purifycss-webpack": "^0.7.0",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0"
+  }
+}
